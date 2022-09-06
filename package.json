@@ -1,0 +1,28 @@
+{
+  "name": "resumable-multi-file-uploader",
+  "version": "1.0.0",
+  "description": "Resumable Multifile uploader using NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khamosh-nigahen/resumable-multi-file-uploader.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khamosh-nigahen/resumable-multi-file-uploader/issues"
+  },
+  "homepage": "https://github.com/khamosh-nigahen/resumable-multi-file-uploader#readme",
+  "dependencies": {
+    "busboy": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "uuid": "^8.3.2"
+  }
+}
